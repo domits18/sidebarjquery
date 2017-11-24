@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JQUERY</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style/estilos.css">
+</head>
+<body>
+    <!--<button>Saludo</button>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                alert('Hola mundo');
+            })
+        });
+    </script> 
+    <div class="caja1"></div>
+    <div class="caja2"></div>
+    <div class="caja3"></div>   
+    <div class="caja4"></div>
+    <script>
+    $(document).ready(function(){
+            $("div").mouseenter(function(){
+                $(this).animate({
+                    height:'+=10px'
+                });
+            });
+            $("div").mouseleave(function(){
+                $(this).animate({
+                    height:'-=10px'
+                });
+            });
+            $("div").click(function(){
+                $(this).toogle(1000);
+                });
+            });
+    </script>-->
+    <header>
+        <p id="burguer">&#9776;</p>
+        <p class="logo">tuMenulateral.com</p>
+    </header>
+    <ul id="menu">
+        <div class="just">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Proveedores</a></li>
+        <li><a href="#">Presupuesto</a></li>
+        <li><a href="#">Facturas</a></li>
+        <li><a href="#">Soporte</a></li>
+        </div>
+    </ul>
+    <script>
+        $(document).ready(function(){
+            $('#burguer').click(function(){
+                $('#menu').animate({width:'toggle'},500)
+            })
+        })
+    </script>
+</body>
+</html>

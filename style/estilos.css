@@ -1,0 +1,79 @@
+/*
+.caja1{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    display: inline-block;
+}
+.caja2{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    display: inline-block;
+
+}
+.caja3{
+    height: 200px;
+    width: 200px;
+    background-color: violet;
+    display: inline-block;
+
+}
+.caja4{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: inline-block;
+}
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 50px;
+    box-shadow: 2px 2px 2px 2px grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+#burguer{
+    font-size: 30px;
+    padding: 5px 20px;
+}
+#burguer:hover{
+    font-size: 32px;
+    padding: 5px 20px;
+    color: red;
+}
+.logo{
+    font-size: 30px;
+    padding: 5px 20px;
+}
+ul{
+    display: none;
+    width: 220px;
+    height: 50vh;
+    background-color: rgb(247, 175, 68);
+    list-style: none;
+    box-shadow: 2px 2px 2px 2px grey; 
+    text-align: center;
+}
+ul .just{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ul li {
+    padding: 15px;
+    font-size: 20px;
+}
+ul li:hover {
+   background-color: orangered;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
